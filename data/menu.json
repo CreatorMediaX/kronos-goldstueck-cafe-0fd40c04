@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "name": "Goldstück Espresso",
+    "description": "Unser hausgemachter Espresso mit einer Note von dunkler Schokolade",
+    "price": 2.8,
+    "category": "kaffee"
+  },
+  {
+    "id": "2",
+    "name": "Cappuccino",
+    "description": "Klassischer Cappuccino mit fein aufgeschäumter Milch",
+    "price": 3.5,
+    "category": "kaffee"
+  },
+  {
+    "id": "3",
+    "name": "Latte Macchiato",
+    "description": "Milch mit einem Schuss Espresso, perfekt geschichtet",
+    "price": 4.2,
+    "category": "kaffee"
+  },
+  {
+    "id": "4",
+    "name": "Apfelkuchen",
+    "description": "Hausgemachter Apfelkuchen mit Zimt und Rosinen",
+    "price": 3.8,
+    "category": "kuchen"
+  },
+  {
+    "id": "5",
+    "name": "Schokokuchen",
+    "description": "Saftiger Schokokuchen mit Schokoglasur",
+    "price": 4.0,
+    "category": "kuchen"
+  },
+  {
+    "id": "6",
+    "name": "Käsekuchen",
+    "description": "Cremiger Käsekuchen auf Mürbeteigboden",
+    "price": 3.9,
+    "category": "kuchen"
+  }
+]
