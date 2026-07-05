@@ -1,0 +1,17 @@
+[
+  {
+    "day": "Montag - Freitag",
+    "hours": "08:00 - 18:00",
+    "isOpen": true
+  },
+  {
+    "day": "Samstag",
+    "hours": "09:00 - 18:00",
+    "isOpen": true
+  },
+  {
+    "day": "Sonntag",
+    "hours": "10:00 - 16:00",
+    "isOpen": true
+  }
+]
