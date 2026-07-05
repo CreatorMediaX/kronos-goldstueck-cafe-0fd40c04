@@ -1,0 +1,8 @@
+{
+  "name": "goldstueck-cafe",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "Open index.html directly in browser (or serve via `python -m http.server 8000` for testing)"
+  }
+}
