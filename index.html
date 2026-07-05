@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Goldstück Café | München</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>☕</text></svg>">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <a href="#" class="logo">Goldstück</a>
+      <nav class="nav">
+        <a href="#speisekarte" class="nav-link">Speisekarte</a>
+        <a href="#oeffnungszeiten" class="nav-link">Öffnungszeiten</a>
+        <a href="#kontakt" class="nav-link">Kontakt</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1>Dein goldenes Stück München</h1>
+          <p class="hero-text">Handgemachter Kaffee & hausgemachte Kuchen in gemütlicher Atmosphäre</p>
+          <a href="#speisekarte" class="button">Entdecke unsere Speisekarte</a>
+        </div>
+        <div class="hero-image">
+          <div class="image-placeholder"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="speisekarte" class="section">
+      <div class="container">
+        <h2>Unsere Speisekarte</h2>
+        <p class="section-intro">Alle unsere Speisen und Getränke werden täglich frisch zubereitet</p>
+        
+        <div class="menu-filters">
+          <button class="menu-filter active" data-category="all">Alles</button>
+          <button class="menu-filter" data-category="kaffee">Kaffee</button>
+          <button class="menu-filter" data-category="kuchen">Kuchen</button>
+        </div>
+        
+        <div class="menu-items" id="menu-items">
+          <!-- Menu items will be loaded from JSON and inserted here by JavaScript -->
+          <div class="loading">Lade Speisekarte...</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="oeffnungszeiten" class="section section-alt">
+      <div class="container">
+        <h2>Öffnungszeiten</h2>
+        <p class="section-intro">Komm vorbei und genieße unsere gemütliche Atmosphäre</p>
+        
+        <div class="opening-hours" id="opening-hours">
+          <!-- Opening hours will be loaded from JSON and inserted here by JavaScript -->
+          <div class="loading">Lade Öffnungszeiten...</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="kontakt" class="section">
+      <div class="container">
+        <h2>Kontakt</h2>
+        <p class="section-intro">Wir freuen uns auf deinen Besuch</p>
+        
+        <div class="contact-grid">
+          <div class="contact-info">
+            <h3>Adresse</h3>
+            <p>Goldstück Café<br>Musterstraße 123<br>80331 München</p>
+            
+            <h3>Kontakt</h3>
+            <p>Telefon: <a href="tel:+498912345678">089 12345678</a><br>
+            E-Mail: <a href="mailto:info@goldstueck-cafe.de">info@goldstueck-cafe.de</a></p>
+          </div>
+          
+          <div class="contact-map">
+            <div class="map-placeholder">
+              <p>Google Maps Karte würde hier eingebettet werden</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2023 Goldstück Café. Alle Rechte vorbehalten.</p>
+      <p class="footer-links">
+        <a href="#">Impressum</a> | 
+        <a href="#">Datenschutz</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
